@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="hire_me_text">Hire me</string>
+
+    <!-- About Content -->
+    <string name="name">
+        Filipe Bezerra de Sousa
+    </string>
+    <string name="roles">
+        Owner, Software Engineer, and Android Engineer in Goiânia, State of Goiás, Brazil
+    </string>
+    <string name="about_me">
+        I am the Owner and CTO at Agência ByITs working with partners archtecting and developing
+        mobile solutions.
+        \n\nAlso I am the Project leader and Mobile Developer at Ponto Doméstico App.
+        \n\nI\'m currently living in Goiânia, State of Goiás, Brazil.
+        \n\nMy interests range from entrepreneurship to technology. I am also interested in martial
+        arts as blue belt competitor, innovation, and programming with python and kotlin.
+        \n\nYou can click the button above to hire me. If you’d like to get in touch, feel free to
+        say hello through any of the social links below.
+    </string>
+    <string name="name_headline_input_help">Edit your name</string>
+    <string name="clear_text_content_description">Press to clear input contents</string>
+</resources>

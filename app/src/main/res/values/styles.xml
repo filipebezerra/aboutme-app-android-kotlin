@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.AboutMe.TextView" parent="Widget.MaterialComponents.TextView">
+
+    </style>
+
+    <style name="Widget.AboutMe.TextView.Centered">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Widget.AboutMe.TextView.Selectable" parent="Widget.AboutMe.TextView.Centered">
+        <item name="android:textIsSelectable">false</item>
+    </style>
+
+    <style name="Widget.AboutMe.TextView.NameHeadline" parent="Widget.AboutMe.TextView.Centered">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+    </style>
+
+    <style name="Widget.AboutMe.TextView.Bio">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:lineSpacingMultiplier">@dimen/default_line_spacing_multiplier</item>
+    </style>
+
+    <style name="Widget.AboutMe.TextView.RolesHeadline" parent="Widget.AboutMe.TextView.Selectable">
+        <item name="android:textAppearance">?attr/textAppearanceBody1</item>
+        <item name="android:lineSpacingMultiplier">@dimen/default_line_spacing_multiplier</item>
+    </style>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_normal"
+        tools:context=".MainActivity"
+        >
+
+        <TextView
+            android:id="@+id/name_headline_text"
+            style="@style/Widget.AboutMe.TextView.NameHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name_headline_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:hint="@string/name_headline_input_help"
+            android:visibility="gone"
+            app:endIconContentDescription="@string/clear_text_content_description"
+            app:endIconMode="clear_text"
+            tools:visibility="visible"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="textAutoCorrect|textPersonName|textCapSentences|textAutoComplete"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/roles_headline_text"
+            style="@style/Widget.AboutMe.TextView.RolesHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:text="@string/roles"
+            />
+
+        <Button
+            android:id="@+id/hire_me_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:minHeight="@dimen/default_min_height_button"
+            android:text="@string/hire_me_text"
+            app:icon="@drawable/ic_connect_without_contact_24dp"
+            app:iconGravity="textStart"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/margin_normal"
+            >
+
+            <TextView
+                android:id="@+id/bio_text"
+                style="@style/Widget.AboutMe.TextView.Bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_me"
+                />
+        </ScrollView>
+    </LinearLayout>
+</layout>
