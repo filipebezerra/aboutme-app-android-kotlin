@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-About Me app is editable "About Me" page for Android. It's created while learning Android Kotlin Development at Udacity Nanodegree
+About Me app is editable "About Me" page for Android. It's created while I've been continuously learning Android Kotlin Development at Udacity Nanodegree.
 
 ## Showcase
 
